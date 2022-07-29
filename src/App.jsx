@@ -1,10 +1,12 @@
-import { BrowserRouter } from "react-router-dom";
+import { Container } from "@material-ui/core";
+import { BrowserRouter, Route, Switch} from "react-router-dom";
 import './App.css';
 import Header from './components/Header';
-import { Container } from '@mui/material';
 import SimpleBottomNavigation from './components/MainNav';
-
-
+import Trending from "./Pages/Trending/Trending";
+import Movies from "./Pages/Movies/Movies";
+import Series from "./Pages/Series/Series";
+import Search from "./Pages/Search/Search";
 
 
 function App() {
@@ -13,18 +15,18 @@ function App() {
       <Header />
       <div className="app">
       <Container>
-        {/* <Switch>
-        <Router path='/' components={Trending} exact/>
-        <Router path='/movies' components={Movies}/>
-        <Router path='/series' components={Series}/>
-        <Router path='/search' components={Search}/>
-       <Switch> */}
+        <Switch>
+          <Route path="/" component={Trending} exact/>
+          <Route path="/movies" component={Movies}/>
+          <Route path="/Series" component={Series}/>
+          <Route path="/search" component={Search}/>
+        </Switch> 
       </Container>
       </div>
-
       <SimpleBottomNavigation /> 
     </BrowserRouter>
-  );
+    
+  ); 
 }
 
 export default App;
