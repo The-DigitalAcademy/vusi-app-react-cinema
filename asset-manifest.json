@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/vusi-app-react-cinema/static/css/main.a4c6d88e.css",
-    "main.js": "/vusi-app-react-cinema/static/js/main.bd977c55.js",
+    "main.css": "/vusi-app-react-cinema/static/css/main.067ba753.css",
+    "main.js": "/vusi-app-react-cinema/static/js/main.9fe0c8b7.js",
     "index.html": "/vusi-app-react-cinema/index.html",
-    "main.a4c6d88e.css.map": "/vusi-app-react-cinema/static/css/main.a4c6d88e.css.map",
-    "main.bd977c55.js.map": "/vusi-app-react-cinema/static/js/main.bd977c55.js.map"
+    "main.067ba753.css.map": "/vusi-app-react-cinema/static/css/main.067ba753.css.map",
+    "main.9fe0c8b7.js.map": "/vusi-app-react-cinema/static/js/main.9fe0c8b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4c6d88e.css",
-    "static/js/main.bd977c55.js"
+    "static/css/main.067ba753.css",
+    "static/js/main.9fe0c8b7.js"
   ]
 }
