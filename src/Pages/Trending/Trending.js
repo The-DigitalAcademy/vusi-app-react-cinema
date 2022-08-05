@@ -25,6 +25,7 @@ const Trending = () => {
     <div>
       <span className="pageTitle">Trending Today</span>
       <div className="trending">
+        <img src="https://images.unsplash.com/photo-1627133805103-ce2d34ccdd37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNpbmVtYXxlbnwwfHwwfHw%3D&w=1000&q=80" alt="watching movies" width="50" height="60"></img>
         {content &&
           content.map((c) => (
             <SingleContent

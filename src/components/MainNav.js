@@ -35,35 +35,4 @@ export default function SimpleBottomNavigation() {
     }
   }, [value, history]);
 
-  return (
-    <BottomNavigation
-      value={value}
-      onChange={(event, newValue) => {
-        setValue(newValue);
-      }}
-      showLabels
-      className={classes.root}
-    >
-      <BottomNavigationAction
-        style={{ color: "white" }}
-        label="Trending"
-        icon={<WhatshotIcon />}
-      />
-      <BottomNavigationAction
-        style={{ color: "white" }}
-        label="Movies"
-        icon={<MovieIcon />}
-      />
-      <BottomNavigationAction
-        style={{ color: "white" }}
-        label="TV Series"
-        icon={<TvIcon />}
-      />
-      <BottomNavigationAction
-        style={{ color: "white" }}
-        label="Search"
-        icon={<SearchIcon />}
-      />
-    </BottomNavigation>
-  );
 }

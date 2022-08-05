@@ -32,3 +32,18 @@
     font-size: 6.4vw;
   }
 }
+img{
+
+   margin: 16px;
+   border-radius: 8px;
+   text-align: center;
+   justify-content: center;
+}
+
+body {
+  background-image: url("https://images1.whatuni.com/commimg/myhotcourses/blog/post/myhc_69765.jpg");
+}
+
+
+
+  

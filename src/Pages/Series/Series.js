@@ -23,7 +23,7 @@ const Series = () => {
   };
 
   useEffect(() => {
-    window.scroll(0, 0);
+    window.scroll(0, 0); 
     fetchSeries();
     
   }, [genreforURL, page]);
@@ -60,4 +60,4 @@ const Series = () => {
   );
 };
 
-export default Series;
+export default Series; 
