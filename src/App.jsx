@@ -12,14 +12,21 @@ import Search from "./Pages/Search/Search";
 
 
 
+
+
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <div className="app">
+
+      <ul>
+            {/* <li><a  onClick={()=> history.push('/Home')}>Home</a></li>
+            <li><a  onClick={()=> history.push('/Products')}>Products</a></li> */}
+        </ul>
+
         <Container>
-
-
+        <img src="https://img.freepik.com/premium-vector/movie-cinema-premiere-background_41737-251.jpg?size=626&ext=jpg" alt="watching movies" width="94%" height="350"></img>
 
         <div clsass="row">
         <img src="https://images.unsplash.com/photo-1627133805103-ce2d34ccdd37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNpbmVtYXxlbnwwfHwwfHw%3D&w=1000&q=80" alt="watching movies" width="250" height="250"></img>
@@ -35,9 +42,7 @@ function App() {
         <img src="https://images.unsplash.com/photo-1561722798-9a732d141027?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2luZW1hJTIwcm9vbXxlbnwwfHwwfHw%3D&w=1000&q=80" alt="watching movies" width="250" height="250"></img>
         <img src="https://t3.ftcdn.net/jpg/00/77/68/38/360_F_77683876_PLF17M0IBi56nktgKNATVfOCEgqWFPBU.jpg" alt="watching movies" width="250" height="250"></img>
 
-
-
-          </div>
+        </div>
         
         </Container>
         
