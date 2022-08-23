@@ -1,18 +1,21 @@
 * {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .app {
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: #39445a;
-  color: white;
-  padding-top: 130px;
-  padding-bottom: 70px;
+  padding-top: 150px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .app {
     padding-top: 70px;
+    font-size: 6.4vw;
   }
 }
 
@@ -31,20 +34,25 @@
   .pageTitle {
     font-size: 6.4vw;
   }
+  
 }
-img{
 
-   margin: 16px;
-   border-radius: 10px;
-   text-align: center;
-   justify-content: center;
-   border: 10px solid white;
-  border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
 
-}
+
+
+
+
+
+
+
 
 
 
 
 
   
+  
+
+
+
+
