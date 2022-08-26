@@ -4,13 +4,17 @@ import "./Card.scss";
 
 
 function card() {
+
+
   return (
     <div className="wrapper">
       <Card
         img="https://movies.sterkinekor.co.za/CDN/media/entity/get/FilmPosterGraphic/HO00002355?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500"
         title="Paws of Fury"
+   
 
       />
+
 
       <Card
         img="https://lumiere-a.akamaihd.net/v1/images/p_shangchiandthelegendofthetenringshomeentupdate_22055_7b62fa67.jpeg?region=0%2C0%2C540%2C800"
@@ -84,8 +88,8 @@ function card() {
 
 function Card(props) {
   return (
-    <div className="card-body">
-      <div className="card-body">
+    <div className="cardbody">
+      <div className="card_body">
         <img src={props.img} class="card__image" />
         <h2 className="card__title">{props.title}</h2>
         <Link className='link' to="/card__btn">
@@ -95,6 +99,15 @@ function Card(props) {
       </div>
     </div>
   );
+
 }
 
-export default card;
+export default card; 
+
+
+function Video(props) {
+  return <div>
+    
+  </div>
+}
+
