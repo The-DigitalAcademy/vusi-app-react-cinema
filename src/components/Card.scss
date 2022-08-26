@@ -22,7 +22,7 @@
     width: 100%;
     object-fit: cover;
     border-radius: 12px;
-    
+    border: solid .5rem white;
   }
 
   &__title {
@@ -30,7 +30,6 @@
     text-align: center;
     color: white;
   }
-
 
   &__btn {
     color: white;
@@ -41,10 +40,9 @@
     margin: 1rem;
     background: rgb(187, 114, 114);
     border-radius: 20px;
-    
+
     transition: background 200ms ease-in, color 200ms ease-in;
     cursor: pointer;
-
   }
 
   &__btn:hover {
@@ -63,5 +61,23 @@
 .card__btn {
   width: 80%;
   height: 60px;
+}
 
+.myVideo {
+  z-index: 999;
+  height: 35rem;
+  width: 50rem;
+  position: fixed;
+  top: 8rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: solid .5rem white;
+  border-radius: 1rem;
+
+  button {
+    padding: 0.5rem 2rem;
+    margin: 0 auto;
+    border-radius: .7rem;
+    font-weight: bold;
+  }
 }
