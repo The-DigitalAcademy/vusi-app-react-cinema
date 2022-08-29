@@ -35,7 +35,7 @@ function CardContainer() {
 
       <Card
         img="https://tafttoday.com/wp-content/uploads/2019/05/MV5BZTliNWJhM2YtNDc1MC00YTk1LWE2MGYtZmE4M2Y5ODdlNzQzXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_-1-568x900.jpg"
-        title="Us"
+        title="Us" 
         videoAddress="https://www.youtube.com/embed/hNCmb-4oXJA"
         setShowVideo={setShowVideo}
         setVideoUrl={setVideoUrl}
@@ -82,9 +82,9 @@ function CardContainer() {
       />
 
       <Card
-        img="https://img.fmovies.ps/xxrz/250x400/306/c1/0d/c10dc831ec6249df4bb3d156f56cbb2e/c10dc831ec6249df4bb3d156f56cbb2e.jpg"
-        title="Finding Hubby"
-        videoAddress="http://www.youtube.com/embed/xDMP3i36naA"
+        img="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00122133-xahylsuxup-portrait.jpg"
+        title="minions"
+        videoAddress="https://www.youtube.com/embed/6DxjJzmYsXo"
         setShowVideo={setShowVideo}
         setVideoUrl={setVideoUrl}
       />
@@ -94,7 +94,7 @@ function CardContainer() {
         title="Pil's"
         videoAddress="https://www.youtube.com/embed/4A0muKc83Nc"
         setShowVideo={setShowVideo}
-        setVideoUrl={setVideoUrl}
+        setVideoUrl={setVideoUrl} 
       />
 
       <Card
@@ -123,7 +123,7 @@ function Card(props) {
         <Link className="link" to="/card__btn">
           <button className="card__btn" onClick={showVideo}>Play now</button>
         </Link>
-      </div>
+      </div> 
     </div>
   );
 }
@@ -148,4 +148,3 @@ function Video({setShowVideo, videoUrl}) {
 
 export default CardContainer;
 
-<iframe width="950" height="534" src="https://www.youtube.com/embed/KE4aF8eIDFc" title="THE STRANGER IN OUR BED Official Trailer 2022 UK Thriller" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
