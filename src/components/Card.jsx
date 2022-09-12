@@ -89,7 +89,7 @@ function CardContainer() {
         setVideoUrl={setVideoUrl}
       />
 
-      <Card
+      <Card 
         img="https://img.fmovies.ps/xxrz/250x400/306/6c/01/6c01acf87ffa3581d517f745008524e2/6c01acf87ffa3581d517f745008524e2.jpg"
         title="Pil's"
         videoAddress="https://www.youtube.com/embed/4A0muKc83Nc"
